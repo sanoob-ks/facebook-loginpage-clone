@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - login or sign up</title>
+    <link rel="stylesheet" href="fb.css">
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/social-media-circle/512/circle-facebook-512.png" type="image/xicon"  >
+</head>
+<body>
+    <div class="container">
+        <div class="div_left">
+            <img class="fb_logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook" >
+            <h2 class="para">Facebook helps you connect and share <br> with the people in your life.</h2>
+
+
+        </div>
+        <div class="div_right">
+            <div class="div-form">
+                <form action="index2.html" id="signupForm">
+                    <input name="mobNumber" class="input_1" type="text" placeholder="Email adress or phone number" > <br>
+                    <input name="password" class="input_2" type="password" placeholder="Password" onkeyup="checkPasswordStrength()">
+                    <br>
+                    <button class="login_button">Login</button>
+                    <p class="para_2"><a class="link_forgot" href="index.html">Forgotten password?</a></p>
+                    <hr class="hor_line">
+                    <button class="create_button"><a class="creat_link" href="index2.html">Create New Account</a></button>
+                    <div id="password-strength-status"></div>
+                </form>
+            </div>
+            <p class="para_3"><a class="celi_link" href="index.html">Create a Page </a>for a celebrity, brand or business.</p>
+            
+            
+
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="/js/jquery.passwordRequirements.min.js"></script>
+
+    
+    <script src="script.js"></script>
+
+    
+    
+</body>
+</html>
+    
